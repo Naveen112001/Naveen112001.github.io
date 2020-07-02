@@ -4,8 +4,12 @@ section{
 	background-image: url(https://cdn2.iconfinder.com/data/icons/web-design-and-development-47/258/1-512.png);
 	background-size: cover;
 	width:100%;
-	height:60vh;
-	color: #eef;
+	height:70vh;
+	color:darkblue;
+	font-size: 20px;
+	min-height: 60%;
+	margin: 0;
+	position: fixed;
 }
 .s1{
 	top:40%;
@@ -18,7 +22,7 @@ section{
 p{
 	font-weight: 600;
 	color:#eff;
-	font-size:40px;
+	
 }
 .s2{
 	color: blue;
@@ -43,34 +47,43 @@ p{
 }
 #t{
 	font-family: 'Poor Story', cursive;
-	color: black
+	color: black;
+	font-size: 20px;
+	line-height: 20px;
 }
 
 #A1{
 	top:20%;
-	background-color: lightgreen;
-	text-align: left;
+	color: white;
+	text-align:left;
 	color: black;
 	font-family: 'Old Standard TT', serif;
 	word-spacing: 12px;
-	line-height: 30px;
-	margin-left: -8px;
+	line-height: 20px;
+	margin-left: 0px;
 	margin-top: 20px;
 	margin-bottom:20px; 
+	background-color: black;
 
 
 
 }
 #about{
-color: black;
+color: red;
+font-family: 'Poor Story', cursive;
 }
 body{
 	color:black;
-	background-image: url(https://miro.medium.com/max/1400/1*73oXq1pNNQoEUd9pOq4jXA.jpeg);
+
+	background-image: url(https://previews.123rf.com/images/ardely/ardely1808/ardely180800020/105753834-abstract-stained-pattern-texture-rectangle-background-vertical-striped-rainbow-full-color-spectrum-m.jpg);
+	min-height: 100%
+	margin:-1;
+	background-size: cover;
+
 }
 .a2{
 display: flex;
-justify-content: center;
+
 
 }
 .fa{
@@ -96,4 +109,99 @@ font-weight: bold;
 }
 html{
 	scroll-behavior: smooth;
+}
+section,.a2,.A1,body,.o{
+	position: relative;
+	opacity: 1.00;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+
+}
+nav{
+	background:#0082e6;
+	height: 30vh;
+	width: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+.C1{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin: 0 5px;
+
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+a.active,a:hover{
+	background: #1b9bff;
+	transition:.5s;
+}
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+}
+#check{
+	display: none;
+
+}
+@media(max-width: 952px){
+	label.C1{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media(max-width: 858px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background:#2c3e50;
+		top:80px;
+		left:0;
+		text-align: center;
+
+	}
+	nav ul li{
+		display: block;
+
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	a:hover,a.active{
+		background: none;
+		color:#0082e6;
+	}
 }
