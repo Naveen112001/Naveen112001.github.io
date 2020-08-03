@@ -221,3 +221,6 @@ a.active,a:hover{
   background: #3B5998;
   color: white;
 }
+#info{
+	background-color: green;
+}
