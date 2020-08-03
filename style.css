@@ -63,7 +63,7 @@ p{
 	margin-left: 0px;
 	margin-top: 20px;
 	margin-bottom:20px; 
-	background-color: black;
+	background-color: green;
 
 
 
@@ -220,7 +220,4 @@ a.active,a:hover{
 .fa-facebook {
   background: #3B5998;
   color: white;
-}
-#info{
-	background: green;
 }
