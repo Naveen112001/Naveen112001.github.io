@@ -73,7 +73,7 @@ color: red;
 font-family: 'Poor Story', cursive;
 }
 body{
-	color:green;
+	color:white;
 
 	background-image: url(https://previews.123rf.com/images/ardely/ardely1808/ardely180800020/105753834-abstract-stained-pattern-texture-rectangle-background-vertical-striped-rainbow-full-color-spectrum-m.jpg);
 	min-height: 100%
@@ -220,4 +220,8 @@ a.active,a:hover{
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+#info{
+	color:blue;
+	background-color: lightgreen
 }
