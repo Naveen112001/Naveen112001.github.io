@@ -50,6 +50,7 @@ nav{
       .social{
           align-items: center;
           margin-left: 10px;
+          margin-right: 10px;
       }
       .fa:hover {
           opacity: 0.7;
