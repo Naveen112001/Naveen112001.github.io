@@ -1,226 +1,167 @@
-section{
-	
-	font-family: 'Amiri', serif;
-	background-image: url(https://cdn2.iconfinder.com/data/icons/web-design-and-development-47/258/1-512.png);
-	background-size: cover;
-	width:100%;
-	height:70vh;
-	color:darkblue;
-	font-size: 20px;
-	min-height: 60%;
-	margin: 0;
-	position: fixed;
-}
-.s1{
-	top:40%;
-	position:absolute;
-	left: 45%;
-	transform: translate(-50%,-50%);
-	text-align: center;
 
-}
-p{
-	font-weight: 600;
-	color:#eff;
-	
-}
-.s2{
-	color: blue;
-	color-rendering: blue;
-	background-color: #ff7b25;
-	border-color:  #ff7b25;
-}
-.s3{
-	color: blue;
-	
-	color-rendering: blue;
-	background-color: #ff7b25;
-	border-color:  #ff7b25;
-}
-
-.s4{
-	color: blue;
-	margin-left: 20px;
-	color-rendering: blue;
-	background-color:#ff7b25;
-	border-color:  #ff7b25;
-}
-#t{
-	font-family: 'Poor Story', cursive;
-	color: black;
-	font-size: 20px;
-	line-height: 20px;
-}
-
-#A1{
-	top:20%;
-	color: white;
-	text-align:left;
-	color: black;
-	font-family: 'Old Standard TT', serif;
-	word-spacing: 12px;
-	line-height: 20px;
-	margin-left: 0px;
-	margin-top: 20px;
-	margin-bottom:20px; 
-	background-color: green;
-
-
-
-}
-#about{
-color: red;
-font-family: 'Poor Story', cursive;
-}
-body{
-	
-
-	background-image: url(https://previews.123rf.com/images/ardely/ardely1808/ardely180800020/105753834-abstract-stained-pattern-texture-rectangle-background-vertical-striped-rainbow-full-color-spectrum-m.jpg);
-	min-height: 100%
-	margin:-1;
-	background-size: cover;
-
-}
-.a2{
-display: flex;
-
-
-}
-.fa{
-	
-	transition: all 1s;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-.fa:hover{
-	transform: scale(2.1);
-}
-.a2{
-	line-height: 20px;
-	font-style: fantasy;
-}
-#Go{
-	font-style: fantasy;
-	font-size: 30px;
-
-}
-.j1,.j{
-font-weight: bold;
-}
-html{
-	scroll-behavior: smooth;
-}
-section,.a2,.A1,body,.o{
-	position: relative;
-	opacity: 1.00;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
 }
 nav{
-	background:#0082e6;
-	height: 30vh;
-	width: 100%;
-}
-*{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}
-.C1{
-	color: white;
-	font-size: 35px;
-	line-height: 80px;
-	padding: 0 100px;
-	font-weight: bold;
-}
-nav ul{
-	float: right;
-	margin-right: 20px;
-}
-nav ul li{
-	display:inline-block;
-	line-height:80px;
-	margin: 0 5px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(55, 193, 228);
+    font-family: 'Playfair Display', serif;
+   
+    background-attachment: fixed;
+    block-size: 25px;
+    
+    }
+    .logo{
+    color:whitesmoke ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    align-items: center;
+    }
+    .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+    }
+    .nav-links li{
+    list-style: none;
+    }
+    .nav-links a{
+    color: cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    
+    }
+    .bugger{
+        display: none;
+    }
+    .bugger div{
+    width: 25PX;
+    height:5px;
+    background-color: rgb(226,226,226);
+    margin: 5PX;
+    
+    }
+    body{
+        background-image: url("zakharovftimage.jpg");
+        
+    }
+    span{
+        color: rgb(255, 5, 5);
+        font-weight: bold;
+        font-size: 32px;
+        text-align: left;
+    }
+    .About{
+        color: rgb(241, 235, 235);
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-align:justify;
+    }
+    .info{
+        color: rgb(38, 2, 43);
+        background-color: rgb(138, 144, 226);
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .nav-links,body{
+        position: relative;
+        opacity: 1.00;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    
+    }
+    .Intro{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 32px;
+        font-weight: bold;
+       
+    }
+    @media screen and (max-width:1024px){
+    .nav-links{
+        width:60%;
+    }
+    }
+    @media screen and (max-width:768px)
+    {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 150vh;
+    top:8vh;
+    background-color:lightblue;
+    text-align: end;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
 
+    }
+   
+    .nav-links li
+    {   text-align: center;
+        width: 230px;
+        height: 350px;
+        border: 1px solid rgb(140, 140, 228);
+        color: rgb(225, 180, 243);
+        background-color: rgb(40, 85, 231);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        font-weight: bold;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+    
+    .bugger{
+    display: block;
+    }
+    .Intro{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    
+    }
+.nav-active{
+    transform: translateX(0%);
 }
-nav ul li a{
-	color: white;
-	font-size: 17px;
-	text-transform: uppercase;
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
-a.active,a:hover{
-	background: #1b9bff;
-	transition:.5s;
+.toggle .line1{
+    transform: rotate(-45deg) translate(-8px,6px);
 }
-.checkbtn{
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 80px;
-	margin-right: 40px;
-	cursor: pointer;
+.toggle .line2{
+  opacity: 0;
 }
-#check{
-	display: none;
-
-}
-@media(max-width: 952px){
-	label.C1{
-		font-size: 30px;
-		padding-left: 50px;
-	}
-	nav ul li a{
-		font-size: 16px;
-	}
-}
-@media(max-width: 858px){
-	.checkbtn{
-	display: block;
-	}
-	ul{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background:#2c3e50;
-		top:80px;
-		left:0;
-		text-align: center;
-
-	}
-	nav ul li{
-		display: block;
-
-	}
-	nav ul li a{
-		font-size: 20px;
-	}
-	a:hover,a.active{
-		background: none;
-		color:#0082e6;
-	}
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-#info{
-	color:blue;
-	background-color: lightgreen
+.toggle .line3{
+    transform: rotate(45deg) translate(-8px,-6px);
 }
