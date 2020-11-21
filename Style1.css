@@ -18,6 +18,11 @@ body{
 background:url(https://previews.123rf.com/images/alexutemov/alexutemov1512/alexutemov151200358/49461803-modern-flat-design-badge-icon-vector-badges-flat-modern-style-vintage-retro-flat-badges-labels-and-r.jpg);
 
 }
+footer{
+    color: yellow;
+    text-align: center;
+    font-size: 32;
+}
 span{
     text-align: center;
     color: royalblue;
