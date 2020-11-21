@@ -92,10 +92,11 @@ nav{
         text-align: left;
     }
     .About{
-        color: rgb(27, 15, 20);
+        color: rgb(250, 250, 250);
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
         text-align:justify;
+        font-weight: bold;
     }
     .info{
         color: rgb(38, 2, 43);
