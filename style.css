@@ -1,0 +1,204 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(55, 193, 228);
+    font-family: 'Playfair Display', serif;
+   
+    background-attachment: fixed;
+    block-size: 25px;
+    
+    }
+    .logo{
+    color:whitesmoke ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    align-items: center;
+    }
+    .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:30%;
+    }
+    .nav-links li{
+    list-style: none;
+    }
+    .nav-links a{
+    color: cornsilk;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    
+    }
+    .bugger{
+        display: none;
+    }
+    .bugger div{
+    width: 25PX;
+    height:5px;
+    background-color: rgb(226,226,226);
+    margin: 5PX;
+    
+    }
+    body{
+        background-image: url("zakharovftimage.jpg");
+        
+    }
+    span{
+        color: rgb(255, 5, 5);
+        font-weight: bold;
+        font-size: 32px;
+        text-align: left;
+    }
+    .About{
+        color: rgb(0, 124, 108);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align:justify;
+    }
+    .info{
+        color: rgb(38, 2, 43);
+        background-color: rgb(138, 144, 226);
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .nav-links,body{
+        position: relative;
+        opacity: 1.00;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    
+    }
+    .Intro{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 32px;
+        font-weight: bold;
+       
+    }
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      .social{
+          align-items: center;
+          margin-left: 10px;
+          margin-right: 0px;
+      }
+      .fa:hover {
+          opacity: 0.7;
+      }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+      }
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+    @media screen and (max-width:1024px){
+    .nav-links{
+        width:60%;
+    }
+    }
+    @media screen and (max-width:768px)
+    {
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+    position: absolute;
+    right: 0px;
+    height: 150vh;
+    top:8vh;
+    background-color:lightblue;
+    text-align: end;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5 ease-in;
+
+    }
+   
+    .nav-links li
+    {   text-align: center;
+        width: 180px;
+        height: 350px;
+        border: 1px solid rgb(140, 140, 228);
+        color: rgb(225, 180, 243);
+        background-color: rgb(40, 85, 231);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        font-weight: bold;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+    
+    .bugger{
+    display: block;
+    }
+    .Intro{
+        text-align: center;
+        color: whitesmoke;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .logo{
+        font-size: 24px;
+    }
+    
+    }
+.nav-active{
+    transform: translateX(0%);
+}
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-8px,6px);
+}
+.toggle .line2{
+  opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-8px,-6px);
+}
