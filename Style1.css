@@ -14,8 +14,7 @@ img{
 
 }
 body{
-
-background:url(https://previews.123rf.com/images/alexutemov/alexutemov1512/alexutemov151200358/49461803-modern-flat-design-badge-icon-vector-badges-flat-modern-style-vintage-retro-flat-badges-labels-and-r.jpg);
+    background: aliceblue;
 
 }
 footer{
@@ -50,8 +49,30 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
-.container{
-display: flex;
-flex-wrap: wrap;
-justify-content:center;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+.container img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #fff;
+}
+
+.container img:hover {
+    transform: scale(1.06);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+    z-index: 2;
 }

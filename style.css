@@ -4,6 +4,37 @@
     padding: 0px;
     box-sizing:border-box ;
 }
+.icon-link {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.15s;
+}
+.icon-link:hover {
+    transform: scale(1.08);
+    /* Optional: add a subtle effect on hover */
+}
+/* .social-media{
+    color: rgb(38, 2, 43);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px;
+}
+.social-media>div, .info > span {
+    margin: 0;
+    padding: 0 8px 0 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+} */
 nav{
     display: flex;
     justify-content:space-around;
@@ -42,6 +73,7 @@ nav{
     .bugger{
         display: none;
     }
+    
     .bugger div{
     width: 25PX;
     height:5px;
@@ -50,13 +82,13 @@ nav{
     
     }
     body{
-        background-image: url("zakharovftimage.jpg");
-        
+        /* background-image: url("zakharovftimage.jpg"); */
+        color: aliceblue;
     }
     span{
-        color: rgb(255, 5, 5);
+        /* color: rgb(255, 5, 5); */
         font-weight: bold;
-        font-size: 32px;
+        /* font-size: 32px; */
         text-align: left;
     }
     .About{
@@ -68,10 +100,11 @@ nav{
     }
     .info{
         color: rgb(38, 2, 43);
-        background-color: rgb(138, 144, 226);
-        font-weight: normal;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        /* font-weight: normal; */
+        /* font-family: 'Roboto', sans-serif; */
+        /* font-size: 10px; */
+          font-size: 18px;
     }
     .nav-links,body{
         position: relative;
@@ -84,16 +117,53 @@ nav{
     
     }
     .Intro{
-        text-align: center;
-        color: whitesmoke;
+        /* text-align: center; */
+        color: rgb(255, 0, 0);
         font-size: 32px;
         font-weight: bold;
        
     }
+    .Skills{
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        /* font-weight: bold; */
+        text-align: left;
+    }
+    /* ...existing code... */
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+/* ...existing code... */
+.box-container {
+    background: rgba(255,255,255,0.85);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+    margin: 32px auto;
+    padding: 32px 24px;
+    max-width: 950px;
+    width: 90%;
+    transition: box-shadow 0.3s;
+}
+.box-container:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+.skill-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 12px;
+    font-size: 18px;
+    
+}
+.skill-icon img, .skill-icon i {
+    margin-right: 4px;
+    vertical-align: middle;
+}
+/* ...existing code... */
     .fa {
         padding: 20px;
-        font-size: 30px;
-        width: 50px;
+        font-size: 40px;
+        width: 75px;
         text-align: center;
         text-decoration: none;
         margin: 5px 2px;
@@ -102,6 +172,7 @@ nav{
           align-items: center;
           margin-left: 10px;
           margin-right: 0px;
+          color: black;
       }
       .fa:hover {
           opacity: 0.7;
@@ -170,8 +241,8 @@ nav{
     display: block;
     }
     .Intro{
-        text-align: center;
-        color: whitesmoke;
+        /* text-align: center; */
+        /* color: whitesmoke; */
         font-size: 22px;
         font-weight: bold;
     }
